@@ -1,0 +1,738 @@
+
+/*		Default Layout: 1080px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+.mainweb{
+	width:1080px;
+	margin:0 auto;
+}
+#selectnav1{
+	display:none;
+}
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+	
+
+.mainweb{
+	width:100%;
+}
+#mune_wrapper {
+	padding:0;
+	width:100%;
+}
+#nav_logo {
+  width: 15%;
+  margin-right: 0px;
+}
+#nav_logo img {
+  width: 100%;
+}
+#nav_mune {
+  width: 85%;
+  margin-top: 4%;
+}
+
+#fast_content{
+	width:100%;
+	text-align:center;
+}
+#right_imag{
+	width:100%;
+	
+}
+#right_imag img{
+	width:100%;
+}
+#bottom_image img{
+	width:64px;
+}
+#second_section{
+	width:100%;
+	padding:0;
+}
+#collm{
+	width:100%;
+	text-align:center;
+}
+#third_section{
+	height:147px;
+}
+#right_botton{
+	margin-left:230px;
+}
+#forth_section{
+	width: 100%;
+}
+#forth_section p{
+	width:100%;
+	margin:0;
+}
+#forth_section button{
+	margin-left: 42%;
+	margin-top: 20px
+}
+#fivth_image img{
+	width: 100%;
+}
+#fiveth_right {
+  width: 100%;
+  text-align: center;
+}
+#fiveth_right button{
+	margin-top: 45px;
+}
+#six_section{
+	width: 100%;
+	text-align: center;
+	padding:0;
+}
+#six_left {
+  width: 100%;
+}
+#six_right img {
+  width: 100%;
+  height: auto;
+}
+#six_right {
+  width: 100%;
+}
+#seven_img {
+  width: 100%;
+}
+#seven_img img {
+  width: 100%;
+}
+#seven_right {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+#eight_left {
+  width: 100%;
+  text-align: center;
+}
+#eight_right {
+  width: 100%;
+}
+#eight_right img {
+  width: 100%;
+}
+#button_last button{
+	margin-left: 34%;
+}
+#nineth_head {
+  width: 100%;
+  margin-left:0;
+}
+#nineth_left {
+    text-align: center;
+    width: 100%;
+}
+
+#nineth_rightvideo{
+	width: 100%;
+	height:auto;
+}
+#soceal_icon{
+	  display: none;
+}
+
+.container{
+	width: 87%;
+}
+#tenth_section h1 {
+  margin-left: 37%;
+}
+#tenth_section h2 {
+  margin-left: 205px;
+  font-size: 42px;
+}
+#tenth_section button{
+	margin-left: 37%;
+}
+
+#paracentiz{
+	width:90%;
+	padding:5px;
+	margin-left: 4%;
+}
+
+
+}
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+
+
+.mainweb{
+	width:100%;
+}
+#selectnav1{
+	display:block;
+	float:right;
+	margin-right:10%;
+	
+	
+}
+#mune_wrapper {
+	padding:0;
+	width:100%;
+}
+#nav_logo {
+  width: 15%;
+  margin-right: 0px;
+}
+#nav_logo img {
+  width: 100%;
+}
+#nav_mune {
+  width: 85%;
+  margin-top: 4%;
+}
+
+
+#fast_content{
+	width:100%;
+	text-align:center;
+}
+#right_imag{
+	width:100%;
+	
+}
+#right_imag img{
+	width:100%;
+}
+#bottom_image img{
+	width:64px;
+	padding: 38px;
+}
+#second_section{
+	width:100%;
+	padding:0;
+}
+#second_head h1{
+	width:94%;
+}
+#collm{
+	width:94%;
+	text-align:center;
+}
+#third_section{
+	height:147px;
+}
+#third_left{
+	width: 100%;
+}
+#third_section{
+	height: auto;
+}
+#right_botton button{
+	margin-bottom:10px;
+}
+#right_botton{
+	margin-left: 20%;
+	margin-left:230px;
+}
+
+#forth_section{
+	width: 100%;
+}
+#forth_section p{
+	width:100%;
+	margin:0;
+}
+#forth_section button{
+	margin-left: 28%;
+	margin-top: 20px
+}
+#fivth_image img{
+	width: 100%;
+}
+#fiveth_right {
+  width: 100%;
+  text-align: center;
+}
+#fiveth_right button{
+	margin-top: 45px;
+}
+#six_section{
+	width: 100%;
+	text-align: center;
+	padding:0;
+}
+#six_left {
+  width: 100%;
+}
+#six_right img {
+  width: 87%;
+  height: auto;
+}
+#six_right {
+  width: 100%;
+}
+#six_left h1{
+	width: 95%;
+}
+#seven_img {
+  width: 100%;
+}
+#seven_img img {
+  width: 100%;
+}
+#seven_right {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+#eight_left {
+  width: 100%;
+  text-align: center;
+}
+#eight_right {
+  width: 100%;
+}
+#eight_right img {
+  width: 100%;
+}
+#button_last button{
+	margin-left: 9%;
+}
+#nineth_head {
+  width: 100%;
+  margin-left:0;
+}
+#nav_mune ul{
+	display:none;
+}
+#nineth_left {
+    text-align: center;
+    width: 100%;
+}
+
+#nineth_rightvideo{
+	width: 100%;
+	height:auto;
+}
+#soceal_icon{
+	  display: none;
+}
+
+#nineth_section{
+	height: 715px;
+}
+.container {
+  width: 90%;
+}
+.container inpu{
+	margin-top: 3%;
+}
+#tenth_section h2{
+	margin-left: 0;
+	font-size: 42px;
+}
+#tenth_section h1{
+	margin-left: 21%;
+}
+#footer_section img{
+	margin-left: 0;
+}
+#paracentiz{
+	width:95%;
+	padding:5px;
+}
+#paracentiz_back {
+  height: 34px;
+  width: 100%;
+}
+#paracentiz_font {
+  height: 34px;
+  width: 98%;
+  margin-top: -34px;
+}
+
+#paracentiz_font3 {
+  height: 34px;
+  width: 75%;
+  margin-top: -34px;
+}
+#paracentiz_font4 {
+  height: 34px;
+  width: 75%;
+  margin-top: -34px;
+}
+#paracentiz_font5 {
+  height: 34px;
+  width: 75%;
+  margin-top: -34px;
+}
+#paracentiz_font2 {
+  height: 34px;
+  width: 75%;
+  margin-top: -34px;
+}
+
+
+
+
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+.mainweb{
+	width:100%;
+}
+#nineth_left {
+    text-align: center;
+    width: 100%;
+}
+
+#nineth_rightvideo{
+	width: 100%;
+	height:auto;
+}
+
+#fast_content{
+	width:100%;
+	text-align:center;
+}
+#right_imag{
+	width:100%;
+	
+}
+#right_imag img{
+	width:100%;
+}
+#bottom_image img{
+	width:64px;
+}
+#second_section{
+	width:100%;
+}
+#collm{
+	width:100%;
+	text-align:center;
+}
+#third_section{
+	height:147px;
+}
+#right_botton{
+	margin-left:230px;
+}
+#forth_section{
+	width: 100%;
+}
+#forth_section p{
+	width:100%;
+	margin:0;
+}
+#forth_section button{
+	margin-left: 28%;
+	margin-top: 20px
+}
+#fivth_image img{
+	width: 100%;
+}
+#fiveth_right {
+  width: 100%;
+  text-align: center;
+}
+#fiveth_right button{
+	margin-top: 45px;
+}
+#six_section{
+	width: 100%;
+	text-align: center;
+}
+#six_left {
+  width: 100%;
+}
+#six_right img {
+  width: 87%;
+  height: auto;
+}
+#six_right {
+  width: 100%;
+}
+#six_left h1{
+	width: 95%;
+}
+#seven_img {
+  width: 100%;
+}
+#seven_img img {
+  width: 100%;
+}
+#seven_right {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+#eight_left {
+  width: 100%;
+  text-align: center;
+}
+#eight_right {
+  width: 100%;
+}
+#eight_right img {
+  width: 100%;
+}
+#button_last button{
+	margin-left: 9%;
+}
+#nineth_head {
+  width: 100%;
+  margin-left:0;
+}
+#soceal_icon{
+	  display: none;
+}
+#third_left{
+	width: 100%;
+}
+#third_section{
+	height: auto;
+}
+#right_botton button{
+	margin-bottom:10px;
+}
+#right_botton{
+	margin-left: 20%;
+}
+
+
+#nineth_section{
+	height: 715px;
+}
+.container {
+  width: 90%;
+}
+.container inpu{
+	margin-top: 3%;
+}
+#tenth_section h2{
+	margin-left: 0;
+	font-size: 42px;
+}
+#tenth_section h1{
+	margin-left: 21%;
+}
+#footer_section img{
+	margin-left: 0;
+}
+#paracentiz{
+	width:90%;
+	padding:5px;
+}
+
+
+
+
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+	
+	
+	.mainweb{
+	width:100%;
+}
+#nineth_left {
+    text-align: center;
+    width: 100%;
+}
+
+#nineth_rightvideo{
+	width: 100%;
+	height:auto;
+}
+
+#fast_content{
+	width:100%;
+	text-align:center;
+}
+#right_imag{
+	width:100%;
+	
+}
+#right_imag img{
+	width:100%;
+}
+#bottom_image img{
+	width:64px;
+}
+#second_section{
+	width:100%;
+}
+#collm{
+	width:100%;
+	text-align:center;
+}
+#third_section{
+	height:147px;
+}
+#right_botton{
+	margin-left:230px;
+}
+#forth_section{
+	width: 100%;
+}
+#forth_section p{
+	width:100%;
+	margin:0;
+}
+#forth_section button{
+	margin-left: 28%;
+	margin-top: 20px
+}
+#fivth_image img{
+	width: 100%;
+}
+#fiveth_right {
+  width: 100%;
+  text-align: center;
+}
+#fiveth_right button{
+	margin-top: 45px;
+}
+#six_section{
+	width: 100%;
+	text-align: center;
+}
+#six_left {
+  width: 100%;
+}
+#six_right img {
+  width: 87%;
+  height: auto;
+}
+#six_right {
+  width: 100%;
+}
+#six_left h1{
+	width: 95%;
+}
+#seven_img {
+  width: 100%;
+}
+#seven_img img {
+  width: 100%;
+}
+#seven_right {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+#eight_left {
+  width: 100%;
+  text-align: center;
+}
+#eight_right {
+  width: 100%;
+}
+#eight_right img {
+  width: 100%;
+}
+#button_last button{
+	margin-left: 9%;
+}
+#nineth_head {
+  width: 100%;
+  margin-left:0;
+}
+#soceal_icon{
+	  display: none;
+}
+#third_left{
+	width: 100%;
+}
+#third_section{
+	height: auto;
+}
+#right_botton button{
+	margin-bottom:10px;
+}
+#right_botton{
+	margin-left: 20%;
+}
+
+
+#nineth_section{
+	height: 715px;
+}
+.container {
+  width: 90%;
+}
+.container inpu{
+	margin-top: 3%;
+}
+#tenth_section h2{
+	margin-left: 0;
+	font-size: 42px;
+}
+#tenth_section h1{
+	margin-left: 21%;
+}
+#footer_section img{
+	margin-left: 0;
+}
+#paracentiz{
+	width:90%;
+	padding:5px;
+}
+
+	
+
+	
+}
