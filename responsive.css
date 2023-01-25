@@ -356,14 +356,15 @@ px      68    160    252    */
 }
 #tenth_section h2{
 	margin-left: 0;
-	font-size: 42px;
+	text-align: center;
+	font-size:none;
 }
 #tenth_section h1{
-	margin-left: 21%;
+	margin-left:0;
+	text-align: center;
 }
 #tenth_section button{
-        margin-left: 21%;
-	width:100%;
+        margin-left: 26%;
 }
 #footer_section img{
 	margin-left: 0;
